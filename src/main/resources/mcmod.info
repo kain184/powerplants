@@ -1,0 +1,16 @@
+[
+{
+  "modid": "hpp",
+  "name": "Powerpots",
+  "description": "experamental.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["kain184"],
+  "credits": "testers and a very special woman",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

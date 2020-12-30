@@ -1,0 +1,16 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-gradlew",
+      "appliesTo": "gradlew",
+      "type": "launch"
+      "command": "genVSCodeRuns",
+    },
+    {
+      "taskLabel": "task-gradlew",
+      "appliesTo": "gradlew",
+      "type": "launch"
+    }
+  ]
+}

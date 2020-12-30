@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "java",
+			"label": "java: exportjar:powerpots",
+			"targetPath": "${workspaceFolder}/${workspaceFolderBasename}.jar",
+			"elements": [
+				"${compileOutput}",
+				"${dependencies}"
+			],
+			"problemMatcher": []
+		},
+		{
+			"type":"shell",
+			"label":"shell: gradlew:prepareRuns",
+			"command":"./gradlew prepareRuns"
+		},
+		{
+			"type":"shell",
+			"label":"shell: gradlew:genVSCodeRuns",
+			"command":"./gradlew genVSCodeRuns"
+		}
+	]
+}
